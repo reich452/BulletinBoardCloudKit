@@ -16,6 +16,7 @@
 		01345B331E96E49A00CD6983 /* Post+CloudKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01345B321E96E49A00CD6983 /* Post+CloudKit.swift */; };
 		01345B361E96E60F00CD6983 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01345B351E96E60F00CD6983 /* Constants.swift */; };
 		01345B381E96E70300CD6983 /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01345B371E96E70300CD6983 /* CloudKitManager.swift */; };
+		01345B3A1E96F99A00CD6983 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01345B391E96F99A00CD6983 /* PostController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		01345B321E96E49A00CD6983 /* Post+CloudKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Post+CloudKit.swift"; sourceTree = "<group>"; };
 		01345B351E96E60F00CD6983 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		01345B371E96E70300CD6983 /* CloudKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
+		01345B391E96F99A00CD6983 /* PostController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		01345B2C1E96E1C800CD6983 /* ModelController */ = {
 			isa = PBXGroup;
 			children = (
+				01345B391E96F99A00CD6983 /* PostController.swift */,
 			);
 			name = ModelController;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				01345B331E96E49A00CD6983 /* Post+CloudKit.swift in Sources */,
 				01345B361E96E60F00CD6983 /* Constants.swift in Sources */,
 				01345B381E96E70300CD6983 /* CloudKitManager.swift in Sources */,
+				01345B3A1E96F99A00CD6983 /* PostController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
