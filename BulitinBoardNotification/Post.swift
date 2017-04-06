@@ -11,5 +11,5 @@ import Foundation
 struct Post {
     
     let postText: String
-    let date: Date 
+    let date: Date
 }
