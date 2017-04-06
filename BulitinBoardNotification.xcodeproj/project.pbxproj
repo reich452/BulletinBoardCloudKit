@@ -12,6 +12,7 @@
 		01345B1D1E96D94C00CD6983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01345B1C1E96D94C00CD6983 /* Assets.xcassets */; };
 		01345B201E96D94C00CD6983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01345B1E1E96D94C00CD6983 /* LaunchScreen.storyboard */; };
 		01345B2B1E96DCD600CD6983 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01345B2A1E96DCD600CD6983 /* CloudKit.framework */; };
+		01345B311E96E24800CD6983 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01345B301E96E24800CD6983 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		01345B211E96D94C00CD6983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01345B281E96DCCD00CD6983 /* BulitinBoardNotification.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BulitinBoardNotification.entitlements; sourceTree = "<group>"; };
 		01345B2A1E96DCD600CD6983 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		01345B301E96E24800CD6983 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 				01345B141E96D94C00CD6983 /* BulitinBoardNotification */,
 				01345B131E96D94C00CD6983 /* Products */,
 				01345B291E96DCD600CD6983 /* Frameworks */,
+				01345B2E1E96E1EB00CD6983 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,12 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				01345B281E96DCCD00CD6983 /* BulitinBoardNotification.entitlements */,
+				01345B2F1E96E20B00CD6983 /* View */,
+				01345B2D1E96E1D900CD6983 /* ViewController */,
+				01345B2C1E96E1C800CD6983 /* ModelController */,
 				01345B271E96D96500CD6983 /* Model */,
-				01345B151E96D94C00CD6983 /* AppDelegate.swift */,
-				01345B191E96D94C00CD6983 /* Main.storyboard */,
-				01345B1C1E96D94C00CD6983 /* Assets.xcassets */,
-				01345B1E1E96D94C00CD6983 /* LaunchScreen.storyboard */,
-				01345B211E96D94C00CD6983 /* Info.plist */,
 			);
 			path = BulitinBoardNotification;
 			sourceTree = "<group>";
@@ -71,6 +72,7 @@
 		01345B271E96D96500CD6983 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				01345B301E96E24800CD6983 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -81,6 +83,40 @@
 				01345B2A1E96DCD600CD6983 /* CloudKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01345B2C1E96E1C800CD6983 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ModelController;
+			sourceTree = "<group>";
+		};
+		01345B2D1E96E1D900CD6983 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		01345B2E1E96E1EB00CD6983 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				01345B151E96D94C00CD6983 /* AppDelegate.swift */,
+				01345B1C1E96D94C00CD6983 /* Assets.xcassets */,
+				01345B211E96D94C00CD6983 /* Info.plist */,
+			);
+			name = Resources;
+			path = BulitinBoardNotification;
+			sourceTree = "<group>";
+		};
+		01345B2F1E96E20B00CD6983 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				01345B191E96D94C00CD6983 /* Main.storyboard */,
+				01345B1E1E96D94C00CD6983 /* LaunchScreen.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01345B161E96D94C00CD6983 /* AppDelegate.swift in Sources */,
+				01345B311E96E24800CD6983 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
