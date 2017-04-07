@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CloudKit
 
 class PostController {
     
@@ -29,8 +30,9 @@ class PostController {
     }
     
     func create(withPost postText: String, andDate date: Date = Date(), completion: @escaping ((Error?) -> Void) = { _ in }) {
-        let post = Post(postText: postText, date: date)
-        cloudKitManager.save(post.cloudKitRecord) { (error) in
+        let post = Post(postText: postText)
+        let record = post.cloudKitRecord
+        cloudKitManager.save(record) { (error) in
             defer { completion (error) } // instead of calling it at the end over every return
             if let error = error {
                 NSLog("Error saving \(post.postText) to CloudKit with error:\n\(error)")

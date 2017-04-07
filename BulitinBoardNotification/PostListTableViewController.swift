@@ -15,6 +15,7 @@ class PostListTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         let notificationCenter = NotificationCenter.default
         notificationCenter.addObserver(self, selector: #selector(postsWereUpdated), name: Constants.DidRefreshNotification, object: nil)
     }
@@ -61,7 +62,6 @@ class PostListTableViewController: UITableViewController {
         return cell
     }
  
-    
 
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
@@ -72,6 +72,4 @@ class PostListTableViewController: UITableViewController {
        
         }    
     }
- 
-
 }

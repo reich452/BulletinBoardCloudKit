@@ -7,9 +7,16 @@
 //
 
 import Foundation
+import CloudKit
 
-struct Post {
+class Post {
     
     let postText: String
     let date: Date
+    
+    init(postText: String, date: Date = Date()) {
+        self.postText = postText
+        self.date = date
+    }
 }
+
