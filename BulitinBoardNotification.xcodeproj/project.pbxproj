@@ -17,6 +17,7 @@
 		01345B361E96E60F00CD6983 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01345B351E96E60F00CD6983 /* Constants.swift */; };
 		01345B381E96E70300CD6983 /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01345B371E96E70300CD6983 /* CloudKitManager.swift */; };
 		01345B3A1E96F99A00CD6983 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01345B391E96F99A00CD6983 /* PostController.swift */; };
+		01345B3C1E9709FA00CD6983 /* PostListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01345B3B1E9709FA00CD6983 /* PostListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		01345B351E96E60F00CD6983 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		01345B371E96E70300CD6983 /* CloudKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
 		01345B391E96F99A00CD6983 /* PostController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
+		01345B3B1E9709FA00CD6983 /* PostListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		01345B2D1E96E1D900CD6983 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				01345B3B1E9709FA00CD6983 /* PostListTableViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				01345B331E96E49A00CD6983 /* Post+CloudKit.swift in Sources */,
 				01345B361E96E60F00CD6983 /* Constants.swift in Sources */,
 				01345B381E96E70300CD6983 /* CloudKitManager.swift in Sources */,
+				01345B3C1E9709FA00CD6983 /* PostListTableViewController.swift in Sources */,
 				01345B3A1E96F99A00CD6983 /* PostController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

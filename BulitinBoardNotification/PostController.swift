@@ -8,11 +8,11 @@
 
 import Foundation
 
-class PostCOntroller {
+class PostController {
     
-    static let shared = PostCOntroller()
+    static let shared = PostController()
     
-    var posts = [Post]() {
+   private(set) var posts = [Post]() { // Can only be set inside of this class 
         didSet {
             // Implement notification for when posts are set
             DispatchQueue.main.async {

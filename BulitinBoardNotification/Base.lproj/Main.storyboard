@@ -12,7 +12,7 @@
         <!--Post List Table View Controller-->
         <scene sceneID="8bO-Ut-JJ0">
             <objects>
-                <tableViewController id="hUd-PG-5oH" customClass="PostListTableViewController" customModule="BulletinBoard" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="hUd-PG-5oH" customClass="PostListTableViewController" customModule="BulitinBoardNotification" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="kZr-xk-M7W">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -37,7 +37,7 @@
                                             </constraints>
                                             <state key="normal" title="Post"/>
                                             <connections>
-                                                <action selector="postButtonTapped:" destination="hUd-PG-5oH" eventType="touchUpInside" id="3Du-R0-Imp"/>
+                                                <action selector="postButtonTapped:" destination="hUd-PG-5oH" eventType="touchUpInside" id="Wt4-0m-8MO"/>
                                             </connections>
                                         </button>
                                     </subviews>
@@ -66,7 +66,7 @@
                         </connections>
                     </tableView>
                     <connections>
-                        <outlet property="postTextField" destination="7M9-Hl-WlT" id="4sH-P7-gZa"/>
+                        <outlet property="postTextField" destination="7M9-Hl-WlT" id="Ije-Tn-CfN"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fDP-fH-8cd" userLabel="First Responder" sceneMemberID="firstResponder"/>
